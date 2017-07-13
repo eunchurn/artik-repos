@@ -1,7 +1,7 @@
 Name:           artik-repos
 Summary:        ARTIK Fedora package repositories
 Version:        24
-Release:        2
+Release:        3
 License:        MIT
 Group:          System Environment/Base
 URL:            http://repo.artik.cloud/artik/bin/pub/fedora/linux/releases/
