@@ -46,6 +46,7 @@ find ./platform -name "*.repo" -exec install -m 644 {} $RPM_BUILD_ROOT/etc/yum.r
 %config(noreplace) /etc/yum.repos.d/artik.repo
 %dir /etc/pki/rpm-gpg
 /etc/pki/rpm-gpg/*
+%config(noreplace) /etc/yum.repos.d/archive-fedora*.repo
 
 %files artik530
 %defattr(-,root,root,-)
