@@ -40,6 +40,9 @@ for file in *.repo ; do
 done
 find ./platform -name "*.repo" -exec install -m 644 {} $RPM_BUILD_ROOT/etc/yum.repos.d \;
 
+%post artik530
+sed -i '/^exclude=/s/$/,expat*/' /etc/yum.repos.d/archive-fedora-updates.repo
+
 %files
 %defattr(-,root,root,-)
 %dir /etc/yum.repos.d
