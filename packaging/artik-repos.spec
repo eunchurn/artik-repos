@@ -32,13 +32,13 @@ ARTIK710 Fedora package repository files for yum and dnf along with gpg public k
 %install
 # Install the keys
 install -d -m 755 $RPM_BUILD_ROOT/etc/pki/rpm-gpg
-install -m 644 RPM-GPG-KEY* $RPM_BUILD_ROOT/etc/pki/rpm-gpg/
+install -m 644 fedora/RPM-GPG-KEY* $RPM_BUILD_ROOT/etc/pki/rpm-gpg/
 
 install -d -m 755 $RPM_BUILD_ROOT/etc/yum.repos.d
 for file in *.repo ; do
-  install -m 644 $file $RPM_BUILD_ROOT/etc/yum.repos.d
+  install -m 644 fedora/$file $RPM_BUILD_ROOT/etc/yum.repos.d
 done
-find ./platform -name "*.repo" -exec install -m 644 {} $RPM_BUILD_ROOT/etc/yum.repos.d \;
+find ./fedora/platform -name "*.repo" -exec install -m 644 {} $RPM_BUILD_ROOT/etc/yum.repos.d \;
 
 %post artik530
 sed -i '/^exclude=/s/$/,expat*/' /etc/yum.repos.d/archive-fedora-updates.repo
