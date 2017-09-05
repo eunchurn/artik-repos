@@ -1,3 +1,9 @@
+artik-repos (1.0.1) unstable; urgency=medium
+
+  * Add artik530s repository
+
+ -- Chanho Park <chanho61.park@samsung.com>  Tue, 05 Sep 2017 19:16:53 +0900
+
 artik-repos (1.0.0) unstable; urgency=medium
 
   * Initial release.
