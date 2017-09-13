@@ -16,3 +16,7 @@ Description: ARTIK710 Ubuntu package repository
 Package: artik-repos-artik530s
 Architecture: any-arm
 Description: ARTIK530s Ubuntu package repository
+
+Package: artik-repos-artik533s
+Architecture: any-arm
+Description: ARTIK533s Ubuntu package repository
