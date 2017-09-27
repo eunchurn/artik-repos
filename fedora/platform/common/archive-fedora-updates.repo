@@ -1,7 +1,7 @@
 [archive-fupdates]
 name=Fedora $releasever - $basearch - Updates
 failovermethod=priority
-baseurl=http://archive.fedoraproject.org/pub/fedora/linux/updates/$releasever/$basearch/
+baseurl=http://archives.fedoraproject.org/pub/archive/fedora/linux/updates/$releasever/$basearch/
 #metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&arch=$basearch
 exclude=bluez*,libdrm*,sbc,openssl*,curl*,wpa_supplicant,appliance-tools,python-imgcreate,livecd-tools
 enabled=1
@@ -13,7 +13,7 @@ skip_if_unavailable=False
 [archive-fupdates-debuginfo]
 name=Fedora $releasever - $basearch - Updates - Debug
 failovermethod=priority
-baseurl=http://archive.fedoraproject.org/pub/fedora/linux/updates/$releasever/$basearch/debug/
+baseurl=http://archives.fedoraproject.org/pub/archive/fedora/linux/updates/$releasever/$basearch/debug/
 #metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-debug-f$releasever&arch=$basearch
 exclude=bluez*,libdrm*,sbc,openssl*,curl*,wpa_supplicant,appliance-tools,python-imgcreate,livecd-tools
 enabled=0
@@ -25,7 +25,7 @@ skip_if_unavailable=False
 [archive-fupdates-source]
 name=Fedora $releasever - Updates Source
 failovermethod=priority
-baseurl=http://archive.fedoraproject.org/pub/fedora/linux/updates/$releasever/SRPMS/
+baseurl=http://archives.fedoraproject.org/pub/archive/fedora/linux/updates/$releasever/SRPMS/
 #metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-source-f$releasever&arch=$basearch
 exclude=bluez*,libdrm*,sbc,openssl*,curl*,wpa_supplicant,appliance-tools,python-imgcreate,livecd-tools
 enabled=0
