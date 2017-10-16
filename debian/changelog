@@ -1,3 +1,9 @@
+artik-repos (1.0.4) xenial; urgency=medium
+
+  * Install ARTIK E2E(SDK/ENM/BLE Onboarding) repository
+
+ -- Chanho Park <chanho61.park@samsung.com>  Mon, 16 Oct 2017 13:20:45 +0900
+
 artik-repos (1.0.3) xenial; urgency=medium
 
   * Install artik platform key during package installation

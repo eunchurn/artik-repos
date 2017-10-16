@@ -24,3 +24,7 @@ Description: ARTIK710 Ubuntu package repository
 Package: artik-repos-artik710s
 Architecture: any-arm arm64
 Description: ARTIK710s Ubuntu package repository
+
+Package: artik-repos-e2e
+Architecture: any-arm arm64
+Description: ARTIK Ubuntu E2E(artik-sdk/ENM/BLE onboarding) package repository
