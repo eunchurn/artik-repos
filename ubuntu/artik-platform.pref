@@ -1,3 +1,3 @@
 Package: *
-Pin: origin repo.artik.cloud
+Pin: origin repo.artik.cloud/artik/bin/pub/artik-platform
 Pin-Priority: 1001
