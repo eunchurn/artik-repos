@@ -1,3 +1,9 @@
+artik-repos (1.0.5) xenial; urgency=medium
+
+  * ubuntu: fix priority of the artik-platform repository
+
+ -- Chanho Park <chanho61.park@samsung.com>  Thu, 01 Feb 2018 16:55:21 +0900
+
 artik-repos (1.0.4) xenial; urgency=medium
 
   * Install ARTIK E2E(SDK/ENM/BLE Onboarding) repository
