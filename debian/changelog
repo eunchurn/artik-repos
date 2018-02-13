@@ -1,9 +1,3 @@
-artik-repos (1.0.6) xenial; urgency=medium
-
-  * repo: bump to official version to A305s_os_3.2.0
-
- -- jae-young <jae-young@MyLinux>  Fri, 09 Feb 2018 10:08:50 +0900
-
 artik-repos (1.0.5) xenial; urgency=medium
 
   * ubuntu: fix priority of the artik-platform repository
