@@ -1,3 +1,9 @@
+artik-repos (1.0.8) xenial; urgency=medium
+
+  * add artik711s repository
+
+ -- jae-young <jae-young@MyLinux>  Tue, 13 Mar 2018 15:33:05 +0900
+
 artik-repos (1.0.7) xenial; urgency=medium
 
   * bump to official version of artik530s and artik710s

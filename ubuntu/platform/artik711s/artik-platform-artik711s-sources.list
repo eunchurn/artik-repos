@@ -1,0 +1,5 @@
+deb http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik711s A711s_os_3.2.0 main
+deb-src http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik711s A711s_os_3.2.0 main
+
+deb http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik711s updates main
+deb-src http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik711s updates main
