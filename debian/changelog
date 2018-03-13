@@ -1,3 +1,9 @@
+artik-repos (1.0.7) xenial; urgency=medium
+
+  * bump to official version of artik530s and artik710s
+
+ -- jae-young Hwang <j-zero.hwang@samsung.com>  Tue, 13 Mar 2018 09:28:47 +0900
+
 artik-repos (1.0.6) xenial; urgency=medium
 
   * repo: bump to official version to A533s_os_3.2.0
