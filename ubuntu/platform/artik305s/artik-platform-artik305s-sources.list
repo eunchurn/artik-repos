@@ -1,5 +1,5 @@
-deb http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik305s A305s_os_3.0.0 main
-deb-src http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik305s A305s_os_3.0.0 main
+deb http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik305s A305s_os_3.3.0 main
+deb-src http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik305s A305s_os_3.3.0 main
 
 deb http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik305s updates main
 deb-src http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik305s updates main
