@@ -1,5 +1,5 @@
-deb http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik710s A710s_os_3.3.0 main
-deb-src http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik710s A710s_os_3.3.0 main
+deb http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik710s A710s_os_18.10.00 main
+deb-src http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik710s A710s_os_18.10.00 main
 
 deb http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik710s updates main
 deb-src http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik710s updates main
